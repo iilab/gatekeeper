@@ -23,8 +23,8 @@ function authenticate(code, cb) {
     client_id: config.oauth_client_id,
     client_secret: config.oauth_client_secret,
     code: code,
-    grant_type: 'authorization_code',
-    redirect_uri: 'http://lieu.io/prose/'
+    grant_type: config.grant_type,
+    redirect_uri: config.redirect_uri
   };
 
   var reqOptions = {

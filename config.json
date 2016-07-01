@@ -4,5 +4,7 @@
   "oauth_host": "https://code.iilab.org",
   "oauth_port": 443,
   "oauth_path": "/oauth/token",
-  "oauth_method": "POST"
+  "oauth_method": "POST",
+  "grant_type": "authorization_code",
+  "redirect_uri": "https://lieu.io/prose/"
 }
